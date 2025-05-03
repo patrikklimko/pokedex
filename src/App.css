@@ -1,9 +1,5 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
+/* #root {
+} */
 
 .logo {
   height: 6em;
@@ -39,4 +35,44 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 1rem 2rem;
+  background: linear-gradient(to right, #646cff, #5ac8fa);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.pokeball-logo {
+  width: 42px;
+  height: 50px;
+}
+  
+.nav-link {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: #ffe66d;
+}
+
+.content {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
 }

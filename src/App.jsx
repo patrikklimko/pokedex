@@ -7,11 +7,12 @@ function App() {
   return (
     <div>
       <nav className='navbar'>
-        <div className='nav-left'>
-          <Link to="/" className='nav-link'>Pokédex</Link>
-          <Link to="/about" className='nav-link'>About</Link>
-        </div>
-      </nav>
+  <div className='nav-left'>
+    <Link to="/" className='nav-link main-title'>Pokédex</Link>
+    <Link to="/about" className='nav-link'>About</Link>
+  </div>
+</nav>
+
 
       <div className='content'>
         <Routes>

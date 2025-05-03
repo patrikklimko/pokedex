@@ -14,20 +14,6 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
 
 .card {
   padding: 2em;
@@ -41,9 +27,9 @@
   display: flex;
   align-items: center;
   padding: 1rem 2rem;
-  background: linear-gradient(to right, #646cff, #5ac8fa);
+  
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  position: sticky;
+  
   top: 0;
   z-index: 100;
 }
@@ -54,15 +40,11 @@
   gap: 2rem;
 }
 
-.pokeball-logo {
-  width: 42px;
-  height: 50px;
-}
   
 .nav-link {
   text-decoration: none;
-  color: white;
-  font-size: 1.2rem;
+  color: rgb(255, 0, 140);
+  font-size: 2rem;
   font-weight: bold;
   transition: color 0.2s;
 }
@@ -75,4 +57,9 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
+}
+
+.main-title {
+  font-size: 2rem; /* Make it bigger */
+  color: red; /* Make it red */
 }

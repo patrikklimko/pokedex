@@ -1,8 +1,8 @@
 .pokemon-card {
     border: 1px solid #ddd;
-    border-radius: 8px;
+    border-radius: 20%;
     padding: 1rem;
-    width: 180px;
+    width: 280px;
     background-color: #f9f9f9;
     text-align: center;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
@@ -18,3 +18,27 @@
     height: 100px;
     object-fit: contain;
   }
+
+  .search-bar input {
+    background-color: #f0f0f0; /* Light grey background */
+    color: #000000;
+    padding: 0.8rem 1rem;
+    width: 300px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 12px; /* Rounded corners */
+    outline: none;
+    transition: 0.3s;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    height: 2rem; /* Add shadow */
+    width: 14rem;
+}
+
+.search-bar input:focus {
+    border-color: #646cff; /* Highlight border on focus */
+    box-shadow: 0 4px 8px rgba(100, 108, 255, 0.3); /* Stronger shadow on focus */
+}
+
+.search-bar input:hover {
+    background-color: #e6e6e6; /* Slightly darker grey on hover */
+}

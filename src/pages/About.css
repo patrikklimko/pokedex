@@ -1,6 +1,7 @@
 .about-page {
     padding: 2rem;
     text-align: center;
+    
   }
   
   .fun-facts-card {
@@ -13,7 +14,7 @@
   }
   
   .fun-facts-card h2 {
-    color: #646cff;
+    color: #000000;
     font-size: 2rem;
     margin-bottom: 1rem;
   }
@@ -50,7 +51,7 @@
   }
   
   .about-section h2 {
-    color: #646cff;
+    color: #000000;
     margin-bottom: 1rem;
   }
   
@@ -69,3 +70,4 @@
     color: #888;
     font-style: italic;
   }
+  

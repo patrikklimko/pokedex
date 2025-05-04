@@ -17,7 +17,7 @@
   
   .pagination-container button {
     padding: 0.5rem 1.2rem;
-    background-color: #646cff;
+    background-color: #ff0000;
     color: white;
     font-weight: bold;
     border: none;
@@ -28,7 +28,7 @@
   }
   
   .pagination-container button:hover:not(:disabled) {
-    background-color: #535bf2;
+    background-color: #ff009d;
     transform: translateY(-2px);
   }
   

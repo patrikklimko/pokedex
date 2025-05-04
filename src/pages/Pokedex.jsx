@@ -42,7 +42,7 @@ const Pokedex = () => {
 
   return (
     <div className="pokedex-page">
-      <h1 className="pokedex-title">Pokédex</h1>
+      <h1 className="pokedex-title">Welcome to my Pokédex</h1>
 
       {loading && <div className="pokedex-message">Loading Pokémon...</div>}
       {error && <div className="pokedex-error-message">Failed to load Pokémon. Try again!</div>}
